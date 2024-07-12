@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box"></div>
+  <div class="homepage">
+    <h1>Welcome to the Tic Tac Toe Game!!</h1>
+    <h1> <span id="element"></span></h1>
+    <a href="gamePage.html"><button class="playBtn">Play Game</button></a>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Let the Tic Tac Toe Battle Begin!'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+
+</html>
